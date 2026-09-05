@@ -1,0 +1,7 @@
+# secret-file patterns (defence-in-depth; credentials live in Bitwarden, never here)
+.env
+.env.*
+*.key
+*.pem
+*credentials*
+*secrets*
