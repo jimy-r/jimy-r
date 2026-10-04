@@ -22,7 +22,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      # Pinned to the commit behind v1.0.1 rather than the v1 tag, which the
+      # Pinned to the commit behind v1.1.0 rather than the v1 tag, which the
       # action's release workflow moves to each new release. A commit SHA can't
       # move, so the scanner that runs is the one that was reviewed.
       - uses: jimy-r/redaction-check-action@65883d8d132e1a881dfaa4065b76dfad5176c7ea # v1.1.0

@@ -1,5 +1,7 @@
 Building and operating agent workspaces. Writing about what holds up and what breaks.
 
+I'm an AI knowledge architect. I make organisations legible to AI agents, mapping the context layer they run on and then designing the memory, governance and evaluation that let agents use it reliably.
+
 - **[agent-workspace-architecture](https://github.com/jimy-r/agent-workspace-architecture)** — a redacted production agent workspace: 18 load-bearing patterns with a one-page architecture map and interactive tour, a guided learn track, teardowns of real systems, fork-ready samples, an evaluation method, and a workspace linter.
 - **[agent-workspace-starter](https://github.com/jimy-r/agent-workspace-starter)** — the architecture as a template: clone it, rename it, run it.
 - **[awesome-agent-workspaces](https://github.com/jimy-r/awesome-agent-workspaces)** — a curated map of the ecosystem, with a stated inclusion bar.
