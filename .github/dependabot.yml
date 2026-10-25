@@ -1,3 +1,6 @@
+# groups and cooldown follow signal-sweep's file: one weekly pull request for
+# all action bumps, and a release is proposed once it is seven days old
+# (version updates only, never security updates).
 version: 2
 updates:
   - package-ecosystem: "github-actions"
@@ -9,3 +12,9 @@ updates:
       prefix: "chore"
       include: "scope"
     open-pull-requests-limit: 5
+    groups:
+      actions:
+        patterns:
+          - "*"
+    cooldown:
+      default-days: 7
